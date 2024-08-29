@@ -1,5 +1,6 @@
 import Navbar from "./components/navbar/navbar";
 
+
 const intro = ()=>{
   {
     return (
