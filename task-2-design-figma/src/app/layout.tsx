@@ -19,7 +19,8 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${inter.className} ${sora.className}`}>{children}</body>
+      <body className={`${inter.className} ${sora.className}`}
+        style={{ backgroundColor: 'rgba(255, 255, 255, 1)' }}>{children}</body>
     </html>
   );
 }

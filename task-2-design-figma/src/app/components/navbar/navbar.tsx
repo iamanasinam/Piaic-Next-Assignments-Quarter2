@@ -1,14 +1,14 @@
-import React from 'react'
+import React from 'react';
 import NavbarLogoComponent from './logo';
 import List from './list';
 import Input from './Input';
 import Cart from './cart';
-
+import './Navbar.css';
 
 const Navbar = () => {
   return (
-    <div className='flex mx-11 my-5 justify-between w-[1264px]'>
-      <NavbarLogoComponent/>
+    <div className='navbar-container'>
+      <NavbarLogoComponent />
       <List />
       <Input />
       <Cart />
@@ -16,4 +16,4 @@ const Navbar = () => {
   )
 }
 
-export default Navbar
+export default Navbar;

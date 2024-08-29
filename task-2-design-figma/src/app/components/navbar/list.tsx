@@ -1,19 +1,20 @@
 import React from 'react';
+import './Navbar.css';
 
 const List = () => {
     return (
-        <ul className='flex justify-center items-center gap-x-10'>
+        <ul className='navbar-list'>
             <li>
-                <a href="" className="font-sora font-normal text-[16px] leading-[20.16px]">Female</a>
+                <a href="" className="navbar-list-item">Female</a>
             </li>
             <li>
-                <a href="" className="font-sora font-normal text-[16px] leading-[20.16px]">Male</a>
+                <a href="" className="navbar-list-item">Male</a>
             </li>
             <li>
-                <a href="" className="font-sora font-normal text-[16px] leading-[20.16px]">Kids</a>
+                <a href="" className="navbar-list-item">Kids</a>
             </li>
             <li>
-                <a href="" className="font-sora font-normal text-[16px] leading-[20.16px]">All Products</a>
+                <a href="" className="navbar-list-item">All Products</a>
             </li>
         </ul>
     );
