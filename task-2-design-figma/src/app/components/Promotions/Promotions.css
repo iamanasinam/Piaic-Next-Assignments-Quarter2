@@ -1,0 +1,64 @@
+.promotion-container{
+    margin-top: 4%;
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.promotion-p{
+    width: 101.29px;
+    height: 15px;
+    left: 781.45px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: "Sora";
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 15px;
+    letter-spacing: 1.2000000476837158px;
+    text-align: center;
+    color: rgba(0, 98, 245, 1);
+}
+
+.promotion-h2{
+    width: 400.42px;
+    height: 40px;
+    top: 31px;
+    left: 631.89px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: "Sora";
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 0.9599999785423279px;
+    text-align: center;
+    color: rgba(33, 33, 33, 1);
+}
+/* 
+.pgap{
+    display: grid;
+    height: 100px;
+    width: 100px;
+}
+    */
+
+.p-first{
+    background-color: rgba(214, 214, 216, 1);
+}
+
+.p-2nd{
+    background-color: rgba(239, 225, 199, 1);
+}
+
+.p-3rd{
+    background-color: rgba(215, 215, 217, 1);
+    
+}
+
+.p-4th{
+    
+    background-color: rgba(33, 33, 33, 1);
+}

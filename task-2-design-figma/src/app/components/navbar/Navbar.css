@@ -1,3 +1,8 @@
+body{
+  background-color: rgba(255, 255, 255, 1);
+  ;
+}
+
 /* Navbar Container */
 .navbar-container {
   /* border: 2px solid blue; */
@@ -6,11 +11,6 @@
     align-items: center;
     margin: 2% 4%;
   }
-
-  /* Navbar Logo */
- .navbar-logo {
-  /* border: 2px solid red; */
- }
 
  /* List Container */
  .navbar-list {
@@ -22,7 +22,6 @@
 }
  /* Navbar List item */
 .navbar-list-item {
-  font-family: 'Sora', sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 20.16px;
