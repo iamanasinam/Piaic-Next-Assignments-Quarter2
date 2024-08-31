@@ -1,11 +1,10 @@
+/* promotion heading code portion */
 .promotion-container{
     margin-top: 4%;
-    /* border: 2px solid red; */
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-bottom: 5%;
 }
 
 .promotion-p{
@@ -39,184 +38,36 @@
     color: rgba(33, 33, 33, 1);
 }
 
-.p-2nd{
-    background-color: rgba(239, 225, 199, 1);
+/* first box*/
+.first-box{
+    background-color: rgba(214, 214, 216, 1);
+}
+.first-box-girl-image{
+    height: 100%;
+    width: 140%;
 }
 
-.p-3rd{
-    background-color: rgba(215, 215, 217, 1);
-    
-}
-
-.p-4th{
-    
+/* second box */
+.second-box{
     background-color: rgba(33, 33, 33, 1);
 }
-
-
-.p-first{
-    background-color: rgba(214, 214, 216, 1);
-    /* border: 2px solid red; */
-    display: flex;
-    align-items: center; /* Center content vertically */
-    /* border: 2px solid red; */
-    width: auto; /* Or set a sufficient width */
-    flex-wrap: nowrap; /* Prevent wrapping */
-}
-
-
-.promotion-1st-box-p1, .promotion-1st-box-p2 {
-    display: inline; /* Keep elements inline */
-    font-family: Sora;
-    font-weight: 700;
-    text-align: left;
-    color: rgba(33, 33, 33, 1);
-    font-size: bold;
-}
-
-.promotion-1st-box-p1 {
-    font-size: 28px;
-    line-height: 35px;
-}
-
-.promotion-1st-box-p2 {
-    font-size: 36px;
-    line-height: 45px;
-    font-weight: 900;
-}
-
-.promotion-1st-box-p3{
-    width: 222px;
-    height: 23px;
-    gap: 0px;
-    opacity: 0px;
-    font-family: Sora;
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 23px;
-    letter-spacing: 0.5400000214576721px;
-    text-align: left;
-    color: rgba(33, 33, 33, 1);
-
-}
-
-.last-banner{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 5px;
-}
-
-.last-para{
-    width: 240px;
-    height: 45px;
-    top: 48px;
-    left: 407.72px;
-    gap: 0px;
-    opacity: 0px;
-    font-family: Sora;
-    font-size: 36px;
-    font-weight: 800;
-    line-height: 45px;
-    letter-spacing: 1.0800000429153442px;
-    text-align: left;
-    color: rgba(255, 255, 255, 1)
-}
-
-.use-promo{
-    width: 140px;
-    height: 18px;
-    top: 109px;
-    left: 458.11px;
-    gap: 0px;
-    opacity: 0px;
-    font-family: Sora;
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 18px;
-    letter-spacing: 0.41999998688697815px;
-    text-align: left;
-    color: rgba(255, 255, 255, 1)
-}
-
-.dine{
+.divbox{
     background: rgba(71, 71, 71, 1);
     width: Hug (316.61px)px;
     height: Hug (37px)px;
-    top: 132px;
-    left: 369.69px;
     padding: 8px 41.61px 8px 42px;
     gap: 0px;
     border-radius: 8px;
     opacity: 0px;
     color: rgba(255, 255, 255, 1);
-
-
 }
 
-
-.box3rd-heading{
-    border: 2px solid blue;
-    width: 123px;
-    height: 24px;
-    gap: 0px;
-    opacity: 0px;
-    font-family: Sora;
-    font-size: 15px;
-    font-weight: 400;
-    line-height: 24px;
-    letter-spacing: 0.44999998807907104px;
-    text-align: left;
-}
-
-.thousand{
-    border: 2px solid blue;
-    width: 69px;
-height: 20px;
-gap: 0px;
-opacity: 0px;
-font-family: Sora;
-font-size: 16px;
-font-weight: 400;
-line-height: 20.16px;
-text-align: left;
-}
-
-.s750{
-    border: 2px solid blue;
-    width: 66px;
-height: 23px;
-gap: 0px;
-opacity: 0px;
-font-family: Sora;
-font-size: 18px;
-font-weight: 600;
-line-height: 23px;
-text-align: left;
-}
-
-.p-2nd {
-    border: 2px solid green;
+/* third box */
+.third-box{
     background-color: rgba(239, 225, 199, 1);
-    display: flex;
-    flex-direction: column; /* Stack items vertically */
-    justify-content: flex-start; /* Align items at the top */
 }
 
-.male1-image {
-    border: 2px solid red;
-    margin-top: 2px;
-    width: 80%;
-    height: 70%;
-    display: flex;
-    justify-content: flex-end;
-    align-items: flex-end;
+.fourth-box{
+    background-color: rgba(215, 215, 217, 1);
+    
 }
-
-.actual-image {
-    width: auto;
-    height: auto;
-}
-
-
