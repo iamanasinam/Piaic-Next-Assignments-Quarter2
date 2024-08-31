@@ -4,6 +4,7 @@ import Promotions from "./components/Promotions/Promotions";
 import Products from "./components/Products/Products";
 import UniqueJewellerySection from "./components/designer Jewelery/design";
 import News from "./components/newsletter/News";
+import Footer from "./components/Footer/Footer";
 
 
 const intro = ()=>{
@@ -16,7 +17,7 @@ const intro = ()=>{
       <Products />
       <UniqueJewellerySection />
       <News />
-
+      <Footer />
       </>
     )
 }
