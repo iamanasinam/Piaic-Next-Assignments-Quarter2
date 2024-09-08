@@ -1,14 +1,18 @@
-import Card from "./components/card/Card";
-import Header from "./components/header/Header";
-import StudentForm from "./components/studentform/StudentForm";
+
+import Card from "./card/Card"
+import Input from "./card/input/Input"
+
+export default function page() {
+    let StudentData=[{
+        name:"Anas",
+        age: 24,
+      }]
 
 
-export default function StudentCRUD() {
   return (
-    <>
-    <Header />
-    <h1 className="font-sans font-bold text-3xl text-center">Student Details</h1>
-    <StudentForm/>
-    </>
+    <div>
+      <Input initialData={StudentData}/>
+      {/* <Card initialData={StudentData} /> */}
+    </div>
   )
 }
